@@ -9,10 +9,11 @@ import SwiftUI
 
 struct OurWorksView: View {
     var body: some View {
-        Text("Munkáink")
+        HelloView()
     }
 }
 
 #Preview {
     OurWorksView()
+        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
 }
