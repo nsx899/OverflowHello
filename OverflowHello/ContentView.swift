@@ -29,15 +29,24 @@ struct ContentView: View {
                 VStack {
                     ScrollView {
                         VStack {
+                            
+                            
+                            
                             //TopMenuView()
-                            //Teszt
-                            HelloView()
+
+                            HelloView(imageString: "img-01", titleFontSize: 155)
+                            
+                            ProfessionalServicesView(subTitle: "Professzionális online szolgáltatások egy helyen", imageString: "img-02")
+
                             
                             ProfessionalServicesView()
+                            
                             
                             ForEach(serviceItems) { item in
                                 ServiceItemView(item: item)
                             }
+                            
+                            ReferencesView()
                             
 //                        ContactView(name: $name, email: $email, phone: $phone, message: $message)
                             

@@ -8,16 +8,21 @@
 import SwiftUI
 
 struct HelloView: View {
+    
+    var imageString: String = "img-01"
+    var title: String = "hello"
+    var titleFontSize: CGFloat = 155
+    
     var body: some View {
         VStack {
-            Image("img-01")
+            Image(imageString)
                 .resizable()
                 .scaledToFit()
             
             
             VStack(alignment: .center) {
-                Text("hello")
-                    .font(.system(size: 155))
+                Text(title)
+                    .font(.system(size: titleFontSize))
                     .fontWeight(.bold)
                     .foregroundStyle(.white)
                 

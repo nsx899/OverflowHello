@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB0315932BB03633004A9011 /* ReferencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0315922BB03633004A9011 /* ReferencesView.swift */; };
 		FB2A58EB2BAEEB01004F1925 /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2A58EA2BAEEB01004F1925 /* ContactView.swift */; };
 		FB2A58ED2BAEEB30004F1925 /* ProfessionalServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2A58EC2BAEEB30004F1925 /* ProfessionalServicesView.swift */; };
 		FB2A58EF2BAEEF26004F1925 /* HelloView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2A58EE2BAEEF26004F1925 /* HelloView.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FB0315922BB03633004A9011 /* ReferencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferencesView.swift; sourceTree = "<group>"; };
 		FB2A58EA2BAEEB01004F1925 /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
 		FB2A58EC2BAEEB30004F1925 /* ProfessionalServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfessionalServicesView.swift; sourceTree = "<group>"; };
 		FB2A58EE2BAEEF26004F1925 /* HelloView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloView.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				FB2A58F42BAF4E88004F1925 /* OurWorksView.swift */,
 				FB2A58F62BAF4EB0004F1925 /* ServicesView.swift */,
 				FB2A58F82BAF4EC9004F1925 /* ContactMainView.swift */,
+				FB0315922BB03633004A9011 /* ReferencesView.swift */,
 			);
 			path = OverflowHello;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				FB2A58F32BAF4E71004F1925 /* OverflowView.swift in Sources */,
 				FB2A58ED2BAEEB30004F1925 /* ProfessionalServicesView.swift in Sources */,
 				FB2A58F92BAF4EC9004F1925 /* ContactMainView.swift in Sources */,
+				FB0315932BB03633004A9011 /* ReferencesView.swift in Sources */,
 				FB2A58EB2BAEEB01004F1925 /* ContactView.swift in Sources */,
 				FB2A58EF2BAEEF26004F1925 /* HelloView.swift in Sources */,
 				FB46D50B2B1FBCDB0024231B /* ServiceItemView.swift in Sources */,
